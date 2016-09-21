@@ -135,6 +135,7 @@ body {
 
 .bottom-container a{
   color: white;
+  text-decoration: underline;
 }
 
 /*Last Thing 3 colums*/
@@ -182,7 +183,19 @@ margin: auto;
 
 .last-mozilla{
   background-color: grey;
-  color: aqua;
+  color: white;
+  padding: 40px;
+}
+
+.last-mozilla a{
+  color: #23C7DB;
+}
+.last-mozilla div:nth-child(2){
+  padding: 15px;
+}
+
+.last-mozilla div:nth-child(3){
+  padding: 15px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -206,6 +219,7 @@ margin: auto;
 
   .our-innovations .col-md-3 {
     text-align: center;
+    padding: 10px 0 10px 0;
   }
 
   .our-impact .col-md-4 {
@@ -229,6 +243,11 @@ margin: auto;
     border: none;
     background-color: #C13832;
   }
+.center{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
 
   .navbar-header .navbar-toggle {
     padding: 18px 15px;
